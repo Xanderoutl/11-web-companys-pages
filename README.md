@@ -1,25 +1,34 @@
-11 Web Company Pages
+# 11 Web Company Pages
+
 Colección de 11 páginas web empresariales desarrolladas con HTML, CSS y JavaScript puro. Este proyecto presenta diferentes diseños y estilos para páginas corporativas.
-🌐 Demo en Vivo
-Visita el proyecto desplegado: https://11pagesweb.netlify.app/
-📋 Descripción
+
+## 🌐 Demo en Vivo
+
+Visita el proyecto desplegado: [https://11pagesweb.netlify.app/](https://11pagesweb.netlify.app/)
+
+## 📋 Descripción
+
 Proyecto que contiene 11 páginas web independientes, cada una con su propio diseño y propósito. Las páginas están organizadas y accesibles desde una página de inicio centralizada.
-🚀 Páginas Incluidas
+
+## 🚀 Páginas Incluidas
+
 El proyecto incluye las siguientes páginas:
 
-Página 12
-Página 20
-Página 22
-Página 30
-Página 34
-Página 35
-Página 40
-Página 42
-Página 47
-Página 52
-Página 53
+- Página 12
+- Página 20
+- Página 22
+- Página 30
+- Página 34
+- Página 35
+- Página 40
+- Página 42
+- Página 47
+- Página 52
+- Página 53
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
+
+```
 11-web-companys-pages/
 │
 ├── index.html          # Página de inicio con navegación
@@ -37,49 +46,56 @@ Página 53
     ├── pag47.html
     ├── pag52.html
     └── pag53.html
-🛠️ Tecnologías Utilizadas
+```
 
-HTML5 - Estructura semántica
-CSS3 - Estilos y diseño responsivo
-Google Fonts - Tipografía Lato
+## 🛠️ Tecnologías Utilizadas
 
-💻 Instalación y Uso
+- **HTML5** - Estructura semántica
+- **CSS3** - Estilos y diseño responsivo
+- **Google Fonts** - Tipografía Lato
 
-Clona el repositorio:
+## 💻 Instalación y Uso
 
-bashgit clone https://github.com/Xanderoutl/11-web-companys-pages.git
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Xanderoutl/11-web-companys-pages.git
+```
 
-Navega al directorio del proyecto:
+2. Navega al directorio del proyecto:
+```bash
+cd 11-web-companys-pages
+```
 
-bashcd 11-web-companys-pages
-
-Abre el archivo index.html en tu navegador o usa un servidor local:
-
-bash# Con Python 3
+3. Abre el archivo `index.html` en tu navegador o usa un servidor local:
+```bash
+# Con Python 3
 python -m http.server 8000
 
 # Con Node.js (http-server)
 npx http-server
+```
 
-Accede a http://localhost:8000 en tu navegador
+4. Accede a `http://localhost:8000` en tu navegador
 
-🌟 Características
+## 🌟 Características
 
-Diseño responsivo y adaptable
-Navegación intuitiva desde página de inicio
-Páginas independientes con diferentes estilos
-Código limpio y semántico
-Optimizado para diferentes dispositivos
+- Diseño responsivo y adaptable
+- Navegación intuitiva desde página de inicio
+- Páginas independientes con diferentes estilos
+- Código limpio y semántico
+- Optimizado para diferentes dispositivos
 
-📱 Compatibilidad
+## 📱 Compatibilidad
 
-Chrome (última versión)
-Firefox (última versión)
-Safari (última versión)
-Edge (última versión)
+- Chrome (última versión)
+- Firefox (última versión)
+- Safari (última versión)
+- Edge (última versión)
 
-👤 Autor
-Yhony Alexander Grajales
+## 👤 Autor
 
-Email: yhonyty3@gmail.com
-GitHub: @Xanderoutl
+**Yhony Alexander Grajales**
+
+- Email: yhonyty3@gmail.com
+- GitHub: [@Xanderoutl](https://github.com/Xanderoutl)
+

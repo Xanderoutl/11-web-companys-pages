@@ -1,0 +1,215 @@
+body {
+    background-color: #010625;
+    display: flex;
+    flex-direction: column; 
+    color: #ffffff;
+    margin: 0;
+}
+
+.text-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 104px;
+    top: 133px;
+    width: 512px;
+    height: auto;
+    gap: 40px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 88px;
+}
+
+.parrafo p {
+    width: 542px;
+    height: auto;
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 358px;
+}
+
+.title-primary {
+    width: 405px;
+    height: auto;
+    font-size: 88px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.bottom a {
+    width: 190px;         
+    height: 66px;         
+    background: #ffffff;    
+    border-radius: 36px;   
+    padding:0px 16px;       
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:0px;
+    top: 494px;
+    gap: 10px; 
+    text-decoration: none;
+}
+
+.text-second {
+    width: 456px;
+    height: auto;
+    position: absolute;
+    left: 878px;
+    top: 597px;
+    gap: 40px;
+}
+
+.rectangulo {
+    width: 96px;
+    height: 8px;
+}
+
+h2 {
+    width: auto;
+    height: auto;
+    font-size: 32px;
+}
+
+.frame1, .frame2 , .frame3 {
+    width: 456px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+}
+
+.frame1 { top: 48px; }
+.frame2 { top: 200px; }
+.frame3 { top: 352px; }
+
+
+.imagen-top {
+    width: 732px;
+    height: auto;
+    position: absolute;
+    left: 646px;
+    top: 0px;
+}
+
+.top-left {
+    width: 348px;
+    height: auto;
+}
+
+.top-rigth {
+    width: 384px;
+    height: auto;
+    position: absolute;
+    left: 384px;
+}
+
+.imagen-media {
+    width: 676px;
+    height: auto;
+    position: absolute;
+    left: 64px;
+    top: 757px;
+}
+
+.images-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    max-width: 1284px;
+    height: auto;
+    position: absolute;
+    left: 64px;
+    top: 1133px;
+}
+
+.images-bottom1,
+.images-bottom2,
+.images-bottom3 {
+    width: 412px;
+    height: auto;
+}
+
+.images-bottom2 { left: 436px; position: absolute; }
+.images-bottom3 { left: 872px; position: absolute; }
+
+
+@media (max-width: 1024px) {
+    .text-primary {
+        left: 50px;
+        top: 100px;
+        width: 80%;
+    }
+    h1 { font-size: 64px; }
+    .parrafo p { font-size: 20px; width: 90%; position: relative; top: auto; left: auto; }
+    .bottom a { font-size: 22px; width: 160px; height: 55px; position: relative; top: auto; left: auto; }
+    .text-second {
+        left: auto;
+        top: auto;
+        position: relative;
+        margin: 30px auto;
+        width: 90%;
+    }
+    .imagen-top {
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0 auto;
+    }
+    .imagen-media {
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 20px auto;
+    }
+    .images-bottom {
+        position: relative;
+        top: auto;
+        left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .images-bottom1,
+    .images-bottom2,
+    .images-bottom3 {
+        position: relative;
+        left: auto;
+        width: 45%;
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 48px; }
+    .title-primary { font-size: 48px; }
+    .parrafo p { font-size: 18px; }
+    .bottom a { font-size: 18px; width: 140px; height: 50px; }
+    .text-primary { align-items: center; text-align: center; left: 0; top: 0; margin: 20px auto; }
+    .text-second { text-align: center; }
+    .frame1, .frame2, .frame3 { position: relative; top: auto; margin: 15px 0; }
+    .images-bottom { flex-direction: column; gap: 16px; }
+    .images-bottom1, .images-bottom2, .images-bottom3 { width: 90%; }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 36px; }
+    .title-primary { font-size: 36px; }
+    .parrafo p { font-size: 16px; }
+    .bottom a { font-size: 16px; width: 120px; height: 45px; }
+}
